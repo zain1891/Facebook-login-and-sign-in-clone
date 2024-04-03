@@ -1,0 +1,75 @@
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54rem;
+}
+.box1{
+    background-color: rgb(255, 255, 255);
+    height: 20rem;
+    width: 40rem;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 30rem;
+    width: 30rem;
+    border-radius: 10px;
+    box-shadow: 2rem 2rem 1rem 0.5rem rgba(0, 0, 0, 0.105) ;
+    margin-left: 1rem;
+
+}
+.fbhead{
+    font-size: 70px;
+    color: #0866ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.p{
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.loginForm{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.email{
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.222);
+}
+.password{
+    height: 2.5rem;
+    width: 20rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.222);
+}
+.login{
+    height: 2.5rem;
+    width: 20.5rem;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.222);
+    font-size: 18px;
+    background-color: #0866ff;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.url{
+    margin-left: 6.5rem;
+}
+.signup{
+    height: 2.5rem;
+    width: 20.5rem;
+    border-radius: 8px;
+    color: white;
+    background-color: #42b72a;
+    margin-top: 2rem;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    border: 0 ;
+    border: 0px;
+}
