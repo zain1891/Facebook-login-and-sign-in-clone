@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="login.css">
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
     <div class="boxes">
@@ -18,13 +20,13 @@
         <div class="box2">
             <form class="loginForm">
                 <div class="emailDiv">
-                <input placeholder="Email adress or phone number" class="email" type="email">
+                <input placeholder="Email adress or phone number" id="email" class="email" type="email">
                 </div>
                 <div class="passwordDiv">
-                <input placeholder="Password" class="password" type="password">
+                <input placeholder="Password" id="password" class="password" type="password">
                 </div>
                 <div class="LoginDiv">
-                <button class="login">Log in</button>
+                <button onclick="myData()" class="login">Log in</button>
                 </div>
                 <div class="fpDiv">
                     <a class="url" href="dummy">Forgotten password?</a>

@@ -16,7 +16,7 @@
     height: 30rem;
     width: 30rem;
     border-radius: 10px;
-    box-shadow: 2rem 2rem 1rem 0.5rem rgba(0, 0, 0, 0.105) ;
+    box-shadow: 9px 9px 9px 9px rgba(0, 0, 0, 0.105) ;
     margin-left: 1rem;
 
 }
@@ -41,8 +41,10 @@
     width: 20rem;
     border-radius: 8px;
     border: 1px solid rgba(0, 0, 0, 0.222);
+    padding:0px 0px 0px 12px ;
 }
 .password{
+    padding:0px 0px 0px 12px ;
     height: 2.5rem;
     width: 20rem;
     border-radius: 8px;
